@@ -1,0 +1,12 @@
+/* This part of the project takes care of the security aspect which can be achieved with the help of raspberry pi. It is built on  python and facilititates features like whenever a tresspasser goes through the front of the PIR Sensor the alarm rings up and lights are turned on. */
+
+/**** Pre-requisites******/
+ You need to install RPi.GPIO library for the purpose.
+
+/****** Pin-Placements*****/
+According to GPIO.BOARD,
+1. For LED, connect its +ve end through resistor to pin 7 and to the ground pin 6.
+2. For PIR Sensor, connect  to pin 2 for VCC, pin 6 for ground and to pin 37 for output.
+
+/****How to run****/
+Run the python application, either directly from python shell or from the command prompt.

@@ -1,0 +1,19 @@
+/* This is a fun project which gives helps you learn the binary representation and counter in an easy and enjoyable way. The projects consists of three parts- Firstly, there are binar representations of number from 0 to 15. Secondly, there is a counter where you give initial and increment value to the system and the counter is displayed through the leds. At last there is a guess game in which the binary representation of a number is displayed and you have to guess that number.*/
+
+/****Materials Required ******/
+1. Raspberry Pi 3
+2. Breadboard
+3. LEDs
+4. Resistors
+5. Jumper wires
+
+/******* Pre-requisites ******/
+1. Firstly, Apache and PHP need to be installed on the Raspberry Pi.
+2. Then, all the files in the folder need to be copied to ''/var/www/html/".
+3. The access rights of all the given files should be change such that it can be modified,executed and read by the root user as well as the group users.
+example,sudo chmod 777 /var/www/html/start.txt
+4. If still not working, www-data should  be added to the group users who can modifiy the files.
+
+/***How to run*****/
+1. Type "ifconfig" command on the command line, then copy the inet address from the data displayed on the screen.
+2. Use the given address to access the webpage from anywhere from the local server.
